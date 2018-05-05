@@ -1,0 +1,15 @@
+button.PlusOne {
+  display: flex;
+  border: 2px solid white;
+  align-content: center;
+  font-size: 30px;
+  margin: 21px auto;
+  padding: 3px;
+  cursor: pointer;
+  max-width: 50px;
+  background-color: #33ff00;
+}
+
+button.PlusOne:hover {
+  background-color: blue;
+}

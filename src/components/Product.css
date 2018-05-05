@@ -1,10 +1,12 @@
 li.Product {
   display: flex;
   align-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   color: black;
   background-color: white;
-  border: 1px solid #33ff00;
+  border: 2px solid #33ff00;
+  padding: 25px;
+  margin: 10px;
 
 
 
@@ -19,13 +21,15 @@ li.Product p {
 
 li.Product p.name {
   font-weight: bold;
-  font-size: 15px;
+  font-size: 21px;
 }
 
 li.Product p.price {
-  max-width: 21px;
+  max-width: 50px;
+  font-size: 17px;
 }
 
 li.Product p.quantity {
-  max-width: 50px
+  max-width: 50px;
+  font-size: 17px;
 }
